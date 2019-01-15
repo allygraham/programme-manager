@@ -1,0 +1,242 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal render the <Modal> component 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Modal
+    closeModal={[MockFunction]}
+    isModalOpen={false}
+  >
+    <div>
+      Hello World
+    </div>
+  </Modal>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="modal-background"
+          onClick={[MockFunction]}
+        />,
+        <div
+          className="modal-content"
+        >
+          <div
+            className="box"
+          >
+            <div>
+              Hello World
+            </div>
+          </div>
+        </div>,
+        <button
+          aria-label="close"
+          className="modal-close is-large"
+          onClick={[MockFunction]}
+        />,
+      ],
+      "className": "modal false",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "modal-background",
+          "onClick": [MockFunction],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="box"
+          >
+            <div>
+              Hello World
+            </div>
+          </div>,
+          "className": "modal-content",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div>
+              Hello World
+            </div>,
+            "className": "box",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Hello World",
+            },
+            "ref": null,
+            "rendered": "Hello World",
+            "type": "div",
+          },
+          "type": "div",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "aria-label": "close",
+          "className": "modal-close is-large",
+          "onClick": [MockFunction],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "button",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="modal-background"
+            onClick={[MockFunction]}
+          />,
+          <div
+            className="modal-content"
+          >
+            <div
+              className="box"
+            >
+              <div>
+                Hello World
+              </div>
+            </div>
+          </div>,
+          <button
+            aria-label="close"
+            className="modal-close is-large"
+            onClick={[MockFunction]}
+          />,
+        ],
+        "className": "modal false",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "modal-background",
+            "onClick": [MockFunction],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="box"
+            >
+              <div>
+                Hello World
+              </div>
+            </div>,
+            "className": "modal-content",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div>
+                Hello World
+              </div>,
+              "className": "box",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Hello World",
+              },
+              "ref": null,
+              "rendered": "Hello World",
+              "type": "div",
+            },
+            "type": "div",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "aria-label": "close",
+            "className": "modal-close is-large",
+            "onClick": [MockFunction],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "button",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

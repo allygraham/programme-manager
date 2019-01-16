@@ -81,6 +81,7 @@ export class Form extends Component {
   onSubmitForm() {
     const { onSubmit: submitForm } = this.props;
     const { id, name, shortDescription, active } = this.state;
+    console.log('submitting the form');
 
     if (this.validateForm()) {
       return;

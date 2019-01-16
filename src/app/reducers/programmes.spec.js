@@ -46,6 +46,15 @@ describe('programmes reducer', () => {
     });
   });
 
+  test('handle CLEAR_SEARCH_VALUE action', () => {
+    const state = {};
+    const action = { type: 'CLEAR_SEARCH_VALUE' };
+
+    expect(programmes(state, action)).toEqual({
+      searchValue: ''
+    });
+  });
+
   test('handle STORE_SORT_BY action', () => {
     const state = {};
     const action = { type: 'STORE_SORT_BY', payload: 'name' };

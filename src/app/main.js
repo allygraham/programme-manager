@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import 'bulma/css/bulma.css';
 import 'font-awesome/css/font-awesome.css';
+import 'toastr/build/toastr.css';
 
 import { App } from '~/App';
 import { store } from '~/store';

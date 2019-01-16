@@ -20,6 +20,7 @@ const RemoveButton = styled('td')`
 
 export const TableRow = ({ programme, handleProgrammeRemove, handleProgrammeEdit }) => (
   <Row
+    key={programme.id}
     active={programme.active}
   >
     <td onClick={() => handleProgrammeEdit(programme.id)}>{programme.id}</td>

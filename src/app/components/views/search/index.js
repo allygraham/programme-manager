@@ -2,7 +2,7 @@ import { connect } from 'react-redux';
 
 import { Search as SearchView } from './Search';
 
-import { storeSearchValue } from '../../../actions/ProgrammeActions';
+import { storeSearchValue, clearSearchValue } from '../../../actions/ProgrammeActions';
 import { selectSearchValue } from '../../../selectors/simpleSelectors';
 
 const MapStateToProps = (state) => ({
@@ -11,6 +11,7 @@ const MapStateToProps = (state) => ({
 
 const MapDispatchToProps = (dispatch) => ({
   handleSearch: (value) => dispatch(storeSearchValue(value)),
+  clearSearch: () => dispatch(clearSearchValue()),
 });
 
 export const Search = connect(MapStateToProps, MapDispatchToProps)(SearchView);

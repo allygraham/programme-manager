@@ -4,6 +4,7 @@ import {
   REMOVE_PROGRAMME,
   EDIT_PROGRAMME,
   STORE_SEARCH_VALUE,
+  CLEAR_SEARCH_VALUE,
   RESET_TO_INITIAL_STATE,
   OPEN_PROGRAMME_MODAL,
   CLOSE_PROGRAMME_MODAL,
@@ -35,6 +36,11 @@ export const programmes = (state = INITIAL_STATE, { type, payload }) => {
       return {
         ...state,
         searchValue: payload
+      };
+    case CLEAR_SEARCH_VALUE:
+      return {
+        ...state,
+        searchValue: '',
       };
     case OPEN_PROGRAMME_MODAL:
       return {

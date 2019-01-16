@@ -34,6 +34,7 @@
     "html-webpack-plugin": "^3.2.0",
     "jest": "^23.6.0",
     "lodash": "^4.17.10",
+    "moment": "^2.22.2",
     "optimize-css-assets-webpack-plugin": "^5.0.1",
     "postcss-loader": "^3.0.0",
     "prop-types": "^15.6.2",
@@ -51,15 +52,15 @@
     "style-loader": "^0.23.1",
     "stylelint": "^9.6.0",
     "stylelint-config-recommended": "^2.1.0",
+    "toastr": "^2.1.4",
     "uglifyjs-webpack-plugin": "^2.0.1",
     "webpack": "^4.21.0",
-    "webpack-bundle-analyzer": "^3.0.3",
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.9"
   },
   "dependencies": {
     "@emotion/core": "^10.0.0-beta.5",
-    "bulma-toast": "^1.4.0",
+    "@opuscapita/react-searchbar": "^1.0.6",
     "emotion": "^9.2.12",
     "react-emotion": "^9.2.12"
   }

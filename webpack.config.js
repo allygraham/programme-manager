@@ -18,6 +18,16 @@ module.exports = {
         use: 'babel-loader'
       },
       {
+        test: /\.jsx?$/,
+        exclude: /(node_modules|bower_components)/,
+        use: {
+            loader: 'babel-loader',
+            options: {
+                presets: ['env', 'react']
+            }
+        }
+      },
+      {
         test: /\.html$/,
         use: [{ loader: 'html-loader', options: { minimize: true } }]
       },
